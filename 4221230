@@ -1,8 +1,8 @@
-local DiamondLib = loadstring([[
+local HardworkLib = loadstring([[
 do
-    local DiamondLib = game:GetService("CoreGui"):FindFirstChild("Diamond [Atomic Lib]")
-    if DiamondLib then
-        DiamondLib:Destroy()
+    local HardworkLib = game:GetService("CoreGui"):FindFirstChild("Hardwork [Atomic Lib]")
+    if HardworkLib then
+        HardworkLib:Destroy()
     end
 end
 
@@ -14,7 +14,7 @@ local Mouse = LocalPlayer:GetMouse()
 
 local Atomlib = Instance.new("ScreenGui")
 
-Atomlib.Name = "Diamond [Atomic Lib]"
+Atomlib.Name = "Hardwork [Atomic Lib]"
 Atomlib.Parent = game:GetService("CoreGui")
 Atomlib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -1539,7 +1539,7 @@ _G.FastAttack = false
 _G.Bypassed = nil
 --------------------------------------------------------------------------
 
-local Win = DiamondLib:Win()
+local Win = HardworkLib:Win()
 local Tab1 = Win:addtap("Main")
 local Tab2 = Win:addtap("Teleport")
 local Tab3 = Win:addtap("Misc")
